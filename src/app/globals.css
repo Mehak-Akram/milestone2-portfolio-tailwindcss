@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    background-color: #000000;
+    color: white;
+  }
+}
+
+@layer components{
+  .menu-link{
+    @apply cursor-pointer hover:text-[#cf5c36]
+  }
+
+  .skills{
+    @apply cursor-pointer hover:text-white
+  }
+
+  hr {
+    border: 0;
+    background-color: #cf5c36;
+    height: 3.9px;
+    margin-top: 15px;
+  }
+
+  .about-img{
+    box-shadow: 0 0 25px #cf5c36;
+
+  }
+
+
+}
